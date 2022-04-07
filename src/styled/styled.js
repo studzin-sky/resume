@@ -25,4 +25,8 @@ export const FooterDiv = styled.div`
 
 export const SideButton = styled.button`
     background-color: #441151;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #FF958C;
     `
