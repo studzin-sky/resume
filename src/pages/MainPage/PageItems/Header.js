@@ -1,9 +1,9 @@
-import { HeaderDiv } from '../styled/styled';
+import { HeaderDiv } from '../../../styled/styled';
 
 export const Header = () => {
     return (
         <HeaderDiv >
-            <p>Header</p>
+            <p>Patryk Studzinski ~ CV </p>
         </HeaderDiv>
     );
 };

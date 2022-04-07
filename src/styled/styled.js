@@ -12,8 +12,17 @@ export const MainPageDiv = styled.div`
 
 export const HeaderDiv = styled.div`
     background-color: #883677;
+
     `
 
 export const SideBarDiv = styled.div`
     background-color: #ca61c3;
+    `
+
+export const FooterDiv = styled.div`
+    background-color: #EE85B5;
+    `
+
+export const SideButton = styled.button`
+    background-color: #441151;
     `
