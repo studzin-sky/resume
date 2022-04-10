@@ -1,9 +1,9 @@
-import { FooterDiv } from "../../../styled/styled";
+import { Component } from "../../../styled/styled";
 
 export const Footer = () => {
     return (
-        <FooterDiv>
+        <Component className="footerDiv">
             <p>CV ~ Patryk Studzinski ~ CV</p>
-        </FooterDiv>
-    )
-}
+        </Component>
+    );
+};

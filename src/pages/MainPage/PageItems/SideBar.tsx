@@ -1,12 +1,12 @@
-import { SideBarDiv, SideButton } from "../../../styled/styled";
+import { Component, SideButton } from "../../../styled/styled";
 
 export const SideBar = () => {
     return (
-        <SideBarDiv>
+        <Component className="sideBarDiv">
             <SideButton>Skills</SideButton>
             <SideButton>Education</SideButton>
             <SideButton>Experience</SideButton>
             <SideButton>Miscellaneous</SideButton>
-        </SideBarDiv>
+        </Component>
     )
 }

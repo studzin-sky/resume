@@ -1,9 +1,9 @@
-import { HeaderDiv } from '../../../styled/styled';
+import { Component } from '../../../styled/styled';
 
 export const Header = () => {
     return (
-        <HeaderDiv >
+        <Component className='headerDiv' >
             <p>Patryk Studzinski ~ CV </p>
-        </HeaderDiv>
+        </Component>
     );
 };
